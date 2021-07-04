@@ -1,0 +1,150 @@
+{
+  "contractName": "YouTubeThumbnailToken",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/YouTubeThumbnailToken.sol\":\"YouTubeThumbnailToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"openzeppelin-solidity/contracts/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"openzeppelin-solidity/contracts/drafts/Counters.sol\":{\"keccak256\":\"0x5be8533c5950173dc2b77b75108fae6e6c5449aedadde3385ba457394aad2384\",\"urls\":[\"bzz-raw://d429fb04f5b31d909dc759d0f88e28055b80b4dd43e5def4dffc947fa0609229\",\"dweb:/ipfs/QmaY9idX5CwLLtjjTQAdiiaDSrncgafkatUZXTbbajpz8b\"]},\"openzeppelin-solidity/contracts/introspection/ERC165.sol\":{\"keccak256\":\"0x01aedbf24e121a744262e04c7815b2a4c8ce604dee4829c5cff00943a594ccf3\",\"urls\":[\"bzz-raw://999ab32a6498d8ad8db61d47c3774aae2ff919acceebe2aeb50879bef62642c3\",\"dweb:/ipfs/QmephAYF5hoymu9qCFK6mURM2kZJCxU4ntUb4KTf1miVPT\"]},\"openzeppelin-solidity/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0xe0ed10f53955c35eecb02724538650a155aa940be3f0a54cd3bde6c6b0c6e48c\",\"urls\":[\"bzz-raw://7dcfda88e3225987245908c3296f3559752647036804325ebfaa9fd1545161c3\",\"dweb:/ipfs/QmXxx5rHfLL57zdgyyyG9MMv4XGN7bpVSc2MuDcaCgto6u\"]},\"openzeppelin-solidity/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721.sol\":{\"keccak256\":\"0x1a1c02bc2487c763ad240f6b6440ec9dcb84870879aea3ed2a6b9cd300b637c7\",\"urls\":[\"bzz-raw://e6351696020fecf1c1b09437a2961cbdc3e1579238a9573b8577b58af463eeb6\",\"dweb:/ipfs/QmTg7UxUcuENko38JL2Pb2aqXkWgqW1xPDbJwmfo3RVrrV\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Enumerable.sol\":{\"keccak256\":\"0x28f4e41b86db783cd8daf9fdec839ce5930332b60f6dc9ac4992dfb584997e79\",\"urls\":[\"bzz-raw://6f1b545ec9e1f0284e86ddd4ffff353e1ab5e026bbbfaa2a5d2d791c39d7afd7\",\"dweb:/ipfs/Qmf9rVfj6LreiE7NHkkT1S7eLbSQDDY1gKd9XWERx2AN7W\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol\":{\"keccak256\":\"0x307231237999e19b618a03e7ecff1cee2a189dd019ebd203e5e43a63a7ac8aa3\",\"urls\":[\"bzz-raw://9a169446f024a24c3e5146cbeefea6be3bbbe9ba836f98f9d0c64af9f10773c4\",\"dweb:/ipfs/QmWibincTepM31suKeF6bd3shbPGjc9E7uULaXQBY1eNX5\"]},\"openzeppelin-solidity/contracts/token/ERC721/ERC721Metadata.sol\":{\"keccak256\":\"0xe454aab4894511c610fb28e63e212608004921c10dfbffaf0b0e18a2c3b204eb\",\"urls\":[\"bzz-raw://cbb33c4aa1ba8470e389a79702b1b0450c03acd0e9471ed3ae5d566a958d36a4\",\"dweb:/ipfs/QmXryp8Ncftr8WYt7vWwoFQVKnbxtQ7dQBHzfzgWWYGisK\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0x680c11bc8173eef7d5db843baaf64ce499476de2c172f6aea631dbee54bcd2e6\",\"urls\":[\"bzz-raw://0f314963ab26fb65c6f364d57900f0f1aa8f6aeb4396e327e5e5c646815f060e\",\"dweb:/ipfs/Qmf6eSUtRUF4YDxGyhQq7TVDYzuHcYEvk9Us3RVy5iZQVH\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Enumerable.sol\":{\"keccak256\":\"0x5c573acd6c7b98d71f3c1c44d63dc17400b0fd7b26a52c9fded43b8b533dc4ec\",\"urls\":[\"bzz-raw://e23af54444d2dbfae58895339eb7b189e1ba5d0b7abde63716e7ef7da23b2fde\",\"dweb:/ipfs/QmZva7dE1SMd1yyizzc6ivSoBXXwpNveLV7iFNATNpq68Y\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Metadata.sol\":{\"keccak256\":\"0x2b2b99dc7fe8fcd1f9427d00822b99cbc683dc21f5dd7532bd7e2281fd2c2ca2\",\"urls\":[\"bzz-raw://a8024c00e34efaf328f9592e76823c79f25fa0f6006bdf4a1e7fea204afd4773\",\"dweb:/ipfs/QmZns9jTr7843njq3J2iL2LLoWXK5mdzN1bDGd9GL3ahhD\"]},\"openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol\":{\"keccak256\":\"0x042048c375daca04b31e31c91bbae912b84b5eb818c4e31b2deb530fd2305342\",\"urls\":[\"bzz-raw://d877a87c5e29b9ffca3e334378058c051a4e012fd3635039681003a9376baf1f\",\"dweb:/ipfs/QmR45snf93cFXtB71TZcmoGy9DbcMha8CqgkDKaLvhjXZK\"]},\"openzeppelin-solidity/contracts/utils/Address.sol\":{\"keccak256\":\"0x1a8e5072509c5ea7365eb1d48030b9be865140c8fb779968da0a459a0e174a11\",\"urls\":[\"bzz-raw://03335b7b07c7c8c8d613cfdd8ec39a0b5ec133ee510bf2fe6cc5a496767bef4b\",\"dweb:/ipfs/Qmebp4nzPja645c9yXSdJkGq96oU3am3LUnG2K3R7XxyKf\"]},\"project:/contracts/YouTubeThumbnailToken.sol\":{\"keccak256\":\"0x97f0395a1a8cafad7f2e6ae27e38f8fa5dff25e071b23fcbda693c7a6775d087\",\"urls\":[\"bzz-raw://0981852b811ede0c64aa4c8b421bab2020e193043c58c9804648f019c91a3ef9\",\"dweb:/ipfs/QmQMHG3Qovx6mkAAWyTKcTetyB62X4jB5FRWcT5dBGvQ5p\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820287a97ab58783d86f3906257e9aff6a63d862d8eb1f745c11a9def8af49733cb64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820287a97ab58783d86f3906257e9aff6a63d862d8eb1f745c11a9def8af49733cb64736f6c63430005100032",
+  "sourceMap": "96:37:16:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;96:37:16;;;;;;;",
+  "deployedSourceMap": "96:37:16:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\nimport \"openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol\";\n\ncontract YouTubeThumbnailToken {\n  \n}",
+  "sourcePath": "/Users/heejin/git/Klaytn-Practice-Project/crypto-ytt-starter/contracts/YouTubeThumbnailToken.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/YouTubeThumbnailToken.sol",
+    "exportedSymbols": {
+      "YouTubeThumbnailToken": [
+        1841
+      ]
+    },
+    "id": 1842,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1839,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:16"
+      },
+      {
+        "absolutePath": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
+        "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
+        "id": 1840,
+        "nodeType": "ImportDirective",
+        "scope": 1842,
+        "sourceUnit": 1360,
+        "src": "25:69:16",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1841,
+        "linearizedBaseContracts": [
+          1841
+        ],
+        "name": "YouTubeThumbnailToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1842,
+        "src": "96:37:16"
+      }
+    ],
+    "src": "0:133:16"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/YouTubeThumbnailToken.sol",
+      "exportedSymbols": {
+        "YouTubeThumbnailToken": [
+          1841
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1839,
+        "name": "PragmaDirective",
+        "src": "0:23:16"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 1360,
+          "absolutePath": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
+          "file": "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol",
+          "scope": 1842,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 1840,
+        "name": "ImportDirective",
+        "src": "25:69:16"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            1841
+          ],
+          "name": "YouTubeThumbnailToken",
+          "nodes": [
+            null
+          ],
+          "scope": 1842
+        },
+        "id": 1841,
+        "name": "ContractDefinition",
+        "src": "96:37:16"
+      }
+    ],
+    "id": 1842,
+    "name": "SourceUnit",
+    "src": "0:133:16"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "1625384209514": {
+      "events": {},
+      "links": {},
+      "address": "0x0231fB873E94bc7d396fFd22a930BD39F982Ebe6",
+      "transactionHash": "0xdc8a98c938433af15f8db17e4c6d1e65a15b7dab32367ce9787daf53fde87fd6"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-04T07:46:14.996Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

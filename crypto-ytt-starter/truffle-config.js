@@ -12,11 +12,11 @@ module.exports = {
       network_id: "*" // Match any network id 
     },
 
-    klaytn: {
-      provider: new HDWalletProvider(PRIVATE_KEY, URL),
-      network_id: NETWORK_ID,
-      gas: GASLIMIT,
-      gasPrice: null,
-    }  
+    // klaytn: {
+    //   provider: new HDWalletProvider(PRIVATE_KEY, URL),
+    //   network_id: NETWORK_ID,
+    //   gas: GASLIMIT,
+    //   gasPrice: null,
+    // }  
   }
 }
