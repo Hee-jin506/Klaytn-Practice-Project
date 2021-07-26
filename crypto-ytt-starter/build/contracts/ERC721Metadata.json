@@ -1210,10 +1210,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1859,
-                        1860
+                        1941,
+                        1942
                       ],
-                      "referencedDeclaration": 1860,
+                      "referencedDeclaration": 1942,
                       "src": "1864:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1475,7 +1475,7 @@
                                   "name": "abi",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1843,
+                                  "referencedDeclaration": 1925,
                                   "src": "2271:3:8",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_abi",
@@ -1761,10 +1761,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1859,
-                        1860
+                        1941,
+                        1942
                       ],
-                      "referencedDeclaration": 1860,
+                      "referencedDeclaration": 1942,
                       "src": "2733:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2181,7 +2181,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1895,
+                        "referencedDeclaration": 1977,
                         "src": "3835:5:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_ERC721Metadata_$1532",
@@ -3437,10 +3437,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1859,
-                                1860
+                                1941,
+                                1942
                               ],
-                              "referencedDeclaration": 1860,
+                              "referencedDeclaration": 1942,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -3835,7 +3835,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 1843,
+                                              "referencedDeclaration": 1925,
                                               "type": "abi",
                                               "value": "abi"
                                             },
@@ -4029,10 +4029,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1859,
-                                1860
+                                1941,
+                                1942
                               ],
-                              "referencedDeclaration": 1860,
+                              "referencedDeclaration": 1942,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4562,7 +4562,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1895,
+                                  "referencedDeclaration": 1977,
                                   "type": "contract super ERC721Metadata",
                                   "value": "super"
                                 },
@@ -4859,7 +4859,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-07-04T07:46:14.361Z",
+  "updatedAt": "2021-07-26T06:24:18.083Z",
   "devdoc": {
     "methods": {
       "approve(address,uint256)": {
